@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+
+img{
+	display: block;
+	margin-left: 15%;
+ 	margin-right: auto;
+	max-width: 60%;
+	height: auto;
+}
+
+a{
+	color: ghostwhite;
+	font-size: 20px;
+}
+
+p{
+	color: black;
+	font-size: 18px;
+	text-indent: 5px;
+
+}
+
+.contactinfo{
+	color: black;
+	text-align: center;
+	background-color: #dbac00;
+ 	width: auto;
+  	border: none;
+  	padding: 50px;
+  	margin: 20px;
+}
+
+.map{
+	color: ghostwhite;
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+iframe{
+	width: 80%;
+	border: 2px solid black !important;
+	border-radius: 8px;
+}
+
+footer{
+	color: ghostwhite;
+	background-color: #192136;
+ 	width: auto;
+  	border: none;
+  	padding: 80px;
+  	margin: 40px;
+}

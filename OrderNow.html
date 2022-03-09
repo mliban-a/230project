@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu - Order Now</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		body {
+			background-color: Black;
+			color: white;
+		} 
+		header {
+			background-color: Black;
+			color: white;
+			text-align: center;
+			left: 10px; top: 10px;
+		}
+		img{
+			display: block;
+			margin-left: 15%;
+ 			margin-right: auto;
+			max-width: 60%;
+			height: auto;
+		}
+		a{
+			color: ghostwhite;
+			font-size: 20px;
+		}
+		li, figcaption{
+			font-size: 18px;
+		}
+		label{
+			font-size: 18px;
+		}
+		
+		figure {
+			align-content: center;
+		}
+
+		.center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 30%;
+        }
+
+        .top {
+        	display: block;
+         	margin-left: auto;
+	        margin-right: auto;
+	        width: 30%;
+	        height: 20%;
+        }
+     /*   .bottom {
+			background-color: #192136;
+			text-align: left;
+ 			width: auto;
+  			border: none;
+  			padding: 50px;
+  			margin: 20px;
+  			font-size: large;
+		} */
+		.order {
+        	text-align: center;
+        	font-size: xx-large;
+        	background-color: #910000;
+ 			width: auto;
+  			border: none;
+			padding: 50px;
+			margin: 20px;
+        }
+        /* methodology was from w3 schools.com */
+        .column {
+        	flex: 33.3%;
+        	padding: 5px;
+        }
+		/* methodology was from w3schools.com */
+		.row {
+			display: flex;
+		}
+		figcaption {
+			white-space: 30px;
+			text-indent: 80px;
+		}
+		.menu{
+			text-align: center;
+			background-color: #dbac00;
+ 			width: auto;
+  			border: none;
+  			padding: 50px;
+  			margin: 20px;
+  			font-size: 20px;
+		}
+		p {
+			color: white;
+		}
+		.fa{
+  			padding: 15px;
+  			font-size: 30px;
+ 			width: 30px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+			border-radius: 50%;
+			float: right;
+		}
+
+		.fa:hover{
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+		  	color: white;
+		}
+
+		.fa-instagram {
+		 	background: #f40083;
+		    color: white;
+		}
+		.fa-yelp{
+			background: #cb2027;
+		 	color: white;
+		}
+footer{
+	color: ghostwhite;
+	background-color: #192136;
+ 	width: auto;
+  	border: none;
+  	padding: 80px;
+  	margin: 40px;
+}
+	</style>
+</head>
+<body>
+	<header> <!-- Groups together content at the top of the page --> 
+		<img src="PizzaLogo2.jpg" alt="Pizza Logo">
+		<!-- Pages -->
+		<div style="text-align: center;">
+			<a href="home.html" style="margin: 5px;">HOME</a> 
+			<a href="OrderNow.html" style="margin: 5px;">MENU</a>
+			<a href="AboutUs.html" style="margin: 5px;">ABOUT</a>
+			<a href="contactus.html" style="margin: 5px;">CONTACT US</a>
+			<a href="developers.html" style="margin: 5px;">DEVELOPERS</a>
+		</div>
+
+		<div class="menu">
+
+			<h1>Menu</h1>
+			<h1>Want Some Hand-Made Fresh Pizza!!</h1>
+		</div>
+	</header>
+	<article> <!-- Groups two or more sections -->
+		<section class = "left"> <!-- Used to group together a section of a webpage --> 
+				<div class="row">
+					<div class="column">
+						<figure>
+							<img src="cheese.jpg" alt=" Cheese Pizza" align="center"> 
+							<br><br>
+							<figcaption>Freshly made Cheese Pizza: Small - $10 / Medium - $15/ Large - $20
+								<!-- <br> Photo Sourced from pexels.com -->
+							</figcaption> 
+						</figure>
+					</div>
+					<br>
+				  <div class="column">
+				  	<figure>
+						<img src="Veggie.jpg" alt=" Veggie Pizza" align="center">
+						<br><br>
+						<figcaption>Freshly made Veggie Pizza: Small - $11 / Medium - $16 / Large - $21
+							<!-- <br> Photo Sourced from pexels.com -->
+						</figcaption>
+					</figure>
+				  </div>
+				</div>
+				<div class="row">
+					<div class="column">
+						<figure>
+							<img src="pepperoni.jpg" alt=" Pepperoni Pizza" align="center"> 
+							<br><br>
+							<figcaption>Freshly made Pepperoni Pizza: Small - $ 12 / Medium - $17 / Large - $22
+								<!-- <br> Photo Sourced from pexels.com -->
+							</figcaption>
+						</figure>
+						<br>
+						</div>
+						<div class="column">
+							<figure>
+								<img src="hawaiian.jpg" alt=" Hawaiian Pizza" align="center">
+								<br><br>
+								<figcaption>Freshly made Hawaiian Pizza: Small - $13 / Medium - $18 / Large - $23
+									<!-- <br> Photo Sourced from pexels.com -->
+								</figcaption>
+							</figure>
+						</div>
+				</div>
+				<div class="row">
+					<div class="column">
+						<figure>
+							<img src="Buffalo.jpg" alt=" Buffalo Pizza" align="center">
+							<br><br>
+							<figcaption>Freshly made Buffalo Pizza: Small - $12 / Medium - $17 / Large - $22
+								<!-- <br> Photo Sourced from pexels.com -->
+							</figcaption>
+						</figure>
+					</div>
+					<br>
+				  	<div class="column">
+						<figure>
+							<img src="jalapeno2.jpg" alt=" Jalapeno Pizza" align="center">
+							<br><br> 
+							<figcaption>Freshly made Jalapeno Pizza: Small - $11 / Medium - $16 / Large - $21
+								<!-- <br>Photo Sourced from pexels.com -->
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+		</section>
+	</article>
+	<form class="order">
+		<H3>ORDER NOW: </H3>
+		<label for="fname">Payment: </label>
+		<input type="text" id="Payment" value=""><br>
+		<label for="fname">Type Of Pizza: </label>
+		<select name="pizzaType" id="type">
+			<option value="crust">Jalapeno</option>
+			<option value="crust">Hawaiian</option>
+			<option value="crust">Veggie</option>
+			<option value="crust">Buffalo</option>
+			<option value="crust">Pepperoni</option>
+			<option value="crust">Cheese</option>
+			</select><br>
+			<label for="fname">Size Of Pizza: </label>
+			<select name="pizzaType" id="type">
+				<option value="Size">Small</option>
+				<option value="Size">Medium</option>
+				<option value="Size">Large</option> 
+				</select><br>
+		<label for="fname">Carry Out/Delivery: </label>
+		<select name="pizzaType" id="type">
+			<option value="Method">Carry Out</option>
+			<option value="Method">Delivery</option>
+			</select><br>
+		<label for="fname">Name: </label>
+		<input type="text" id="name" value=""><br>
+		<label for="fname">Address: </label>
+		<input type="text" id="address" value=""><br>
+		<label for="fname">Phone Number: </label>
+		<input type="text" id="number" value=""><br>
+
+		<button type="button">SUBMIT</button>
+		<script>
+			let getLab =document.getElementById("address");
+			if(getLab.value == "")
+			{
+				//alert("Please enter data");
+			}
+		</script>
+	</form>
+
+<!--Questions-->
+<!--div class="questions"-->
+	<!--h2>Contact us with any questions</h2-->
+<!--/div-->
+
+<!--Bottom-->
+<footer>
+	<div class="bottom">
+		<h2>Copyright &copy; Aschenbrenner's Pizza 2022.</h2>
+		<p>Disclaimer: Photos sourced from www.pexels.com</p>
+	</div>
+	<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+	<a href="https://www.yelp.com" class="fa fa-yelp"></a>
+</footer>
+</body>
+</html>

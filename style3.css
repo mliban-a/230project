@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+}
+
+img{
+	display: block;
+	margin-left: 15%;
+ 	margin-right: auto;
+	max-width: 100%;
+	height: 100%;
+}
+
+a{
+	color: ghostwhite;
+	font-size: 20px;
+}
+
+p{
+	color: black;
+	font-size: 18px;
+	text-indent: 5px;
+
+}
+.map{
+	color: ghostwhite;
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+
+
+/*.bottom{
+	color: ghostwhite;
+	background-color: #192136;
+ 	width: auto;
+  	border: none;
+  	padding: 50px;
+  	margin: 20px;
+} */
+
+footer{
+	color: ghostwhite;
+	background-color: #192136;
+ 	width: auto;
+  	border: none;
+  	padding: 80px;
+  	margin: 40px;
+}
